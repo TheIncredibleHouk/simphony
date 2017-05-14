@@ -1,0 +1,11 @@
+C:\Projects\SSNFramework2\SSN.Utilities\SSN.Utilities\bin\Debug\SSN.Utilities.dll
+C:\Projects\SSNFramework2\SSN.Utilities\SSN.Utilities\bin\Debug\SSN.Utilities.pdb
+C:\Projects\SSNFramework2\SSN.Utilities\SSN.Utilities\bin\Debug\SSN.DotNet.dll
+C:\Projects\SSNFramework2\SSN.Utilities\SSN.Utilities\bin\Debug\SSN.Security.dll
+C:\Projects\SSNFramework2\SSN.Utilities\SSN.Utilities\bin\Debug\SSNDBPersistedObjects.dll
+C:\Projects\SSNFramework2\SSN.Utilities\SSN.Utilities\bin\Debug\SSNPersistedObjects.dll
+C:\Projects\SSNFramework2\SSN.Utilities\SSN.Utilities\bin\Debug\SSN.DotNet.pdb
+C:\Projects\SSNFramework2\SSN.Utilities\SSN.Utilities\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\SSNFramework2\SSN.Utilities\SSN.Utilities\obj\Debug\SSN.Utilities.dll
+C:\Projects\SSNFramework2\SSN.Utilities\SSN.Utilities\obj\Debug\SSN.Utilities.pdb
+C:\Projects\SSNFramework2\SSN.Utilities\SSN.Utilities\bin\Debug\PDFNet.dll

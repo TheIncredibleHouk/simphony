@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0D6A2E62-6DA5-4375-9E24-0825747B53EE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SimPhony</RootNamespace>
+    <AssemblyName>SimPhony</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Krystalware.UploadHelper">
+      <HintPath>.\Krystalware.UploadHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Arrow.cs" />
+    <Compile Include="ChartData.cs" />
+    <Compile Include="ChartInfo.cs" />
+    <Compile Include="Converter.cs" />
+    <Compile Include="Difficulty.cs" />
+    <Compile Include="Edit.cs" />
+    <Compile Include="EditInfo.cs" />
+    <Compile Include="Library.cs" />
+    <Compile Include="SimFileData.cs" />
+    <Compile Include="SimfileReader.cs" />
+    <Compile Include="Song.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpeedChange.cs" />
+    <Compile Include="Style.cs" />
+    <Compile Include="WebConverter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Daiz.DotNetExtensions\Daiz.DotNet.csproj">
+      <Project>{110053C5-388B-46A2-B0C6-965FD9D0D166}</Project>
+      <Name>Daiz.DotNet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Daiz.Utilities\Daiz.Utilities.csproj">
+      <Project>{C5216689-4DF6-4C32-8CB8-51746F8A2D14}</Project>
+      <Name>Daiz.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Daiz.WebFramework\Daiz.WebFramework.csproj">
+      <Project>{9765F433-6E0E-458D-987A-994338CA77A8}</Project>
+      <Name>Daiz.WebFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DaizBase\Daiz.DataBase.csproj">
+      <Project>{C4211CF5-24D3-4C1F-894F-799D272CA381}</Project>
+      <Name>Daiz.DataBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

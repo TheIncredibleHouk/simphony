@@ -1,0 +1,7 @@
+C:\Users\Daiz\Desktop\Projects\Database\Converter\bin\Debug\Converter.dll
+C:\Users\Daiz\Desktop\Projects\Database\Converter\bin\Debug\Converter.pdb
+C:\Users\Daiz\Desktop\Projects\Database\Converter\bin\Debug\DaizBase.dll
+C:\Users\Daiz\Desktop\Projects\Database\Converter\bin\Debug\DaizBase.pdb
+C:\Users\Daiz\Desktop\Projects\Database\Converter\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Daiz\Desktop\Projects\Database\Converter\obj\Debug\Converter.dll
+C:\Users\Daiz\Desktop\Projects\Database\Converter\obj\Debug\Converter.pdb

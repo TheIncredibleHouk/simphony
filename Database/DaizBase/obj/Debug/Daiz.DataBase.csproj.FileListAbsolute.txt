@@ -1,0 +1,15 @@
+C:\Users\Daiz\Desktop\Projects\Database\DaizBase\bin\Debug\Daiz.DataBase.dll
+C:\Users\Daiz\Desktop\Projects\Database\DaizBase\bin\Debug\Daiz.DataBase.pdb
+C:\Users\Daiz\Desktop\Projects\Database\DaizBase\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Daiz\Desktop\Projects\Database\DaizBase\obj\Debug\Daiz.DataBase.dll
+C:\Users\Daiz\Desktop\Projects\Database\DaizBase\obj\Debug\Daiz.DataBase.pdb
+C:\Projects\Awesome\SimPO\Database\DaizBase\bin\Debug\Daiz.DataBase.dll
+C:\Projects\Awesome\SimPO\Database\DaizBase\bin\Debug\Daiz.DataBase.pdb
+C:\Projects\Awesome\SimPO\Database\DaizBase\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Awesome\SimPO\Database\DaizBase\obj\Debug\Daiz.DataBase.dll
+C:\Projects\Awesome\SimPO\Database\DaizBase\obj\Debug\Daiz.DataBase.pdb
+C:\Users\Daiz\Desktop\Projects\Awesome\SimPO\Database\DaizBase\bin\Debug\Daiz.DataBase.dll
+C:\Users\Daiz\Desktop\Projects\Awesome\SimPO\Database\DaizBase\bin\Debug\Daiz.DataBase.pdb
+C:\Users\Daiz\Desktop\Projects\Awesome\SimPO\Database\DaizBase\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Daiz\Desktop\Projects\Awesome\SimPO\Database\DaizBase\obj\Debug\Daiz.DataBase.dll
+C:\Users\Daiz\Desktop\Projects\Awesome\SimPO\Database\DaizBase\obj\Debug\Daiz.DataBase.pdb

@@ -1,0 +1,177 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="main.master.cs" Inherits="master_main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>SimPhony - Sim File to DDR Arcade Edit Converter</title>
+    <link href="/styles/main.less" rel="Stylesheet" type="text/css" />
+    <script type="text/javascript" src="/min/NinJa.js"></script>
+    <script type="text/javascript" src="/min/NinJaVisuals.js"></script>
+    <script type="text/javascript" src="/min/NinJaControls.js"></script>
+    <script type="text/javascript" src="/min/NinJaQuery.js"></script>
+    <script type="text/javascript" src="/min/NinJaGridView.js"></script>
+    <script type="text/javascript" src="/min/NinJaAjax.js"></script>
+    <script type="text/javascript" src="/min/NinJaValidation.js"></script>
+    <script type="text/javascript" src="/min/simphony.js"></script>
+    <asp:ContentPlaceHolder ID="Scripts" runat="server" />
+    <script type="text/javascript">
+        function signIn() {
+            var e = NinJa.Event;
+            var result = Simphony.SignIn($TextBox("TxtMainUser").Text(), $TextBox("TxtMainPass").Text());
+            if (result) {
+                $Div("PnlNonUser").Collapsed(true);
+                $Span("LblUser").Text($TextBox("TxtMainUser").Text());
+                $Div("PnlUser").Collapsed(false);
+                Client.Cookies.Add(new Cookie("login", result, new DateTime(2050, 1, 1)));
+                $Span("signin_error").Collapsed(true);
+            }
+            else {
+                $Span("signin_error").Text("Sign in failed.").Collapsed(false);
+            }
+
+
+            e.Handled = true;
+        }
+
+        function signOut() {
+            Client.Cookies.Remove(Client.Cookies["login"]);
+            Page.Refresh();
+        }
+
+        Page.OnLoad.Add(function () {
+            $Div("load").Collapsed(true);
+            $Span("signin_error").Collapsed(true);
+            $Div("edit_list").Opacity(.9);
+            $Div("edit_list2").Collapsed(true);
+            Simphony.CurrentLibraryAsync(updateEdits);
+        });
+
+        function toggleEdits() {
+            $Div("edit_list2").Toggle();
+        }
+
+        function addEdit(e) {
+            Simphony.AddEditAsync(e, updateEdits);
+        }
+
+        function removeEdit(e) {
+            Simphony.RemoveEditAsync(e, updateEdits);
+        }
+
+        function updateEdits(e) {
+            e = e.ResponseObject;
+            var t = $Table("edit_list4"), c1, c2, c3, r;
+            var rows = [];
+            var i = 0, l = e.length, v;
+            for (; i < l; i++) {
+                v = e[i];
+                r = new Row();
+                c1 = new Cell();
+                c2 = new Cell();
+                c3 = new Cell();
+                c1.AddElement(String.Format("\"{0}\" / {2} / {1}", [v.Name, v.SongTitle, v.Style]));
+                c2.AddElement(new Anchor().Text("Details").Target("_blank").Href(String.Format("/edit.aspx?id={0}", v.ID)));
+                c3.AddElement(new Anchor().Text("Remove").Href(String.Format("javascript: removeEdit({0})", v.ID)));
+                r.Cells.AddRange([c1, c2, c3]);
+                rows.Add(r);
+            }
+
+            t.Rows.BeginUpdate().Clear().AddRange(rows).EndUpdate();
+            $Span("count").Text(e.length);
+            //$Button("saveLibraryButton").Collapsed(l == 0);
+        }
+
+        function downloadLibrary(r) {
+            Page.Location("/downloadlibrary.aspx?type=" + $DropDownList("download_type").SelectedValue());
+        }
+
+        function clearLibrary() {
+            Client.Cookies["edits"].Value("");
+            updateEdits({ ResponseObject: [] });
+        }
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+        <tr>
+            <td colspan="2">
+                <div class="topbar"><a href="/default.aspx"><img src="/images/betalogo.png" /></a></div>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td width="250">
+                <daiz:Section ID="PnlNonUser" runat="server" HeaderText="Welcome!">
+                    <table class="form" highlight="formh">
+                        <tr>
+                            <td colspan="2"><span class="error" id="signin_error"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Username</td>
+                            <td><asp:TextBox ID="TxtMainUser" runat="server" /></td>
+                        </tr>
+                        <tr>
+                            <td>Password</td>
+                            <td><asp:TextBox TextMode="Password" ID="TxtMainPass" runat="server" /></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <asp:Button ID="BtnSignIn" OnClientClick="signIn()" Text="Sign In" runat="server" />
+                                <a href="signup.aspx">Sign up!</a>
+                                <a href="">Forgot your password?</a>
+                            </td>
+                        </tr>
+                    </table>
+                </daiz:Section>
+                <daiz:Section ID="PnlUser" HeaderText="Welcome <span id='LblUser'></span>!" runat="server">
+                        <a href="newedit.aspx">New Edit</a>
+                        <a href="myedits.aspx">Manage Edits</a>
+                        <a href="mypacks.aspx">My Packs</a>
+                        <%--<a href="newpack.aspx">New Pack</a>--%>
+                        <a onclick="signOut()">Sign Out</a>
+                </daiz:Section>
+                <daiz:Section ID="Section1" HeaderText="Edits" runat="server">
+                    <a href="/search.aspx"><img src="/images/search.png" /> Browse Edits</a>
+                    <a href="http://ddredit.konamionline.com/ddrse/library_manager/index.php"><img src="/images/usb.png" /> Konami Library Manager</a>
+                    <a href="/packs.aspx"><img src="/images/usb.png" /> View Edit Packs</a>
+                    <a href="/howto.aspx"><img src="/images/howto.png" /> Instructions</a>
+                    <a href="/analysis.aspx"><img src="/images/info.png" /> Chart Info Explained</a>
+                </daiz:Section>
+                <daiz:Section CssClass="topedits" HeaderText="Recent Edits" ID="latestedits" runat="server">
+                </daiz:Section>
+                <daiz:Section CssClass="topedits" HeaderText="Top Edits By Likes" ID="topeditspanel" runat="server">
+                </daiz:Section>
+                <daiz:Section CssClass="topedits" HeaderText="Top Edits By Downloads" ID="topedits2panel" runat="server">
+                </daiz:Section>
+            </td>
+            <td>
+                <div class="maincontent">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <div id="edit_list" class="group">
+        <div id="edit_list2" class="innercontent">
+            <div id="edit_list3">
+                <table border="0" style="float: right;" cellpadding="2" cellspacing="0" id="edit_list4"></table>
+            </div>
+            <daiz:Button ButtonType="Submit" ID="saveLibraryButton" PostBackUrl="/savepack.aspx" Text="Save" runat="server" />
+            File Format: <daiz:DropDownList runat="server" ID="download_type">
+               <%-- <asp:ListItem Text="US Arcade File" Value="U|DAT" />
+                <asp:ListItem Text="European Arcade File" Value="E|DAT" />--%>
+                <asp:ListItem Text="US Data Zip File" Value="U|ZIP" />
+                <asp:ListItem Text="European Data Zip File" Value="E|ZIP" />
+                <asp:ListItem Text="SimFile Pack" Value="|SM" />
+            </daiz:DropDownList>
+            <daiz:Button ButtonType="Button" ID="downloadULibraryButton" OnClientClick="downloadLibrary()" Text="Download" runat="server" />
+            <daiz:Button ButtonType="Button" OnClientClick="clearLibrary()" Text="Clear" runat="server" />
+        </div>
+        <h1 style="cursor: pointer" onclick="toggleEdits()">Current Library <span id="count"></span></h1>
+    </div>
+    </form>
+    <div id="load" style="background-color: #ffffff; position: fixed; top: 0px; width: 100%; height: 100%">Loading...</div>
+</body>
+</html>

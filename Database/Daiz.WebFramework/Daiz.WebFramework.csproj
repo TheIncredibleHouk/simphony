@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9765F433-6E0E-458D-987A-994338CA77A8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Daiz.WebFramework</RootNamespace>
+    <AssemblyName>Daiz.WebFramework</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\Button.cs" />
+    <Compile Include="Controls\Calendar.cs" />
+    <Compile Include="Controls\CheckBox.cs" />
+    <Compile Include="Controls\Subsection.cs" />
+    <Compile Include="Controls\DropDownList.cs" />
+    <Compile Include="Controls\GridView.cs" />
+    <Compile Include="Controls\HyperLink.cs" />
+    <Compile Include="Controls\IBindable.cs" />
+    <Compile Include="Controls\Label.cs" />
+    <Compile Include="Controls\Menu.cs" />
+    <Compile Include="Controls\MenuEntry.cs" />
+    <Compile Include="Controls\MenuItem.cs" />
+    <Compile Include="Controls\MenuSeparator.cs" />
+    <Compile Include="Controls\RadioButtonList.cs" />
+    <Compile Include="Controls\Section.cs" />
+    <Compile Include="Controls\SuggestionBox.cs" />
+    <Compile Include="Controls\TextFormat.cs" />
+    <Compile Include="Controls\ValidatorFunction.cs" />
+    <Compile Include="Controls\TextBox.cs" />
+    <Compile Include="Controls\ValidationSummary.cs" />
+    <Compile Include="Controls\Validator.cs" />
+    <Compile Include="Generics\SecurePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Generics\SecureService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Generics\GeneralPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Generics\UnsecurePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User\SecureToken.cs" />
+    <Compile Include="User\User.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Daiz.DotNetExtensions\Daiz.DotNet.csproj">
+      <Project>{110053C5-388B-46A2-B0C6-965FD9D0D166}</Project>
+      <Name>Daiz.DotNet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DaizBase\Daiz.DataBase.csproj">
+      <Project>{C4211CF5-24D3-4C1F-894F-799D272CA381}</Project>
+      <Name>Daiz.DataBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

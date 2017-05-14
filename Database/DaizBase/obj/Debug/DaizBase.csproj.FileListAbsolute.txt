@@ -1,0 +1,5 @@
+C:\Users\Daiz\Desktop\Projects\Database\DaizBase\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Daiz\Desktop\Projects\Database\DaizBase\bin\Debug\DaizBase.dll
+C:\Users\Daiz\Desktop\Projects\Database\DaizBase\bin\Debug\DaizBase.pdb
+C:\Users\Daiz\Desktop\Projects\Database\DaizBase\obj\Debug\DaizBase.dll
+C:\Users\Daiz\Desktop\Projects\Database\DaizBase\obj\Debug\DaizBase.pdb

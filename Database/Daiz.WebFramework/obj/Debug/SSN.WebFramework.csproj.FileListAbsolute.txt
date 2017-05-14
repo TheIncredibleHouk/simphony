@@ -1,0 +1,15 @@
+C:\Projects\SSNFramework2\SSN.WebFramework\SSN.WebFramework\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\SSNFramework2\SSN.WebFramework\SSN.WebFramework\bin\Debug\SSN.WebFramework.dll
+C:\Projects\SSNFramework2\SSN.WebFramework\SSN.WebFramework\bin\Debug\SSN.WebFramework.pdb
+C:\Projects\SSNFramework2\SSN.WebFramework\SSN.WebFramework\bin\Debug\SSN.BusinessFramework.dll
+C:\Projects\SSNFramework2\SSN.WebFramework\SSN.WebFramework\bin\Debug\SSN.DotNet.dll
+C:\Projects\SSNFramework2\SSN.WebFramework\SSN.WebFramework\bin\Debug\SSN.Security.dll
+C:\Projects\SSNFramework2\SSN.WebFramework\SSN.WebFramework\bin\Debug\SSN.Utilities.dll
+C:\Projects\SSNFramework2\SSN.WebFramework\SSN.WebFramework\bin\Debug\SSNDBPersistedObjects.dll
+C:\Projects\SSNFramework2\SSN.WebFramework\SSN.WebFramework\bin\Debug\SSNPersistedObjects.dll
+C:\Projects\SSNFramework2\SSN.WebFramework\SSN.WebFramework\bin\Debug\SSN.BusinessFramework.pdb
+C:\Projects\SSNFramework2\SSN.WebFramework\SSN.WebFramework\bin\Debug\SSN.DotNet.pdb
+C:\Projects\SSNFramework2\SSN.WebFramework\SSN.WebFramework\bin\Debug\SSN.Utilities.pdb
+C:\Projects\SSNFramework2\SSN.WebFramework\SSN.WebFramework\obj\Debug\SSN.WebFramework.dll
+C:\Projects\SSNFramework2\SSN.WebFramework\SSN.WebFramework\obj\Debug\SSN.WebFramework.pdb
+C:\Projects\SSNFramework2\SSN.WebFramework\SSN.WebFramework\bin\Debug\PDFNet.dll

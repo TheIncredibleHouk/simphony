@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="092461e3-db94-4ac9-8d61-a2793bc9e1a2" name="Daiz@DAIZ-PC 2011-10-15 22:23:04" runUser="Daiz-PC\Daiz" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="6d1ec75a-477d-46b2-8a47-3eb61e1c9c28">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Daiz_DAIZ-PC 2011-10-15 22_23_04">
+      <DeploymentItem filename="C:\Users\Daiz\Desktop\Projects\Database\SimPhony\bin\Debug\SimPhony.dll" />
+      <DeploymentItem filename="C:\Users\Daiz\Desktop\Projects\Database\DaizBase\bin\Debug\DaizBase.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-10-15T22:23:04.7811000-04:00" queuing="2011-10-15T22:23:06.5921000-04:00" start="2011-10-15T22:23:06.8091000-04:00" finish="2011-10-15T22:23:32.8651000-04:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DAIZ-PC" outcome="Error" timestamp="2011-10-15T22:23:32.8631000-04:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SaveMasterList" storage="c:\users\daiz\desktop\projects\database\daizbase\simphonytest\bin\debug\simphonytest.dll" id="c3916199-205e-20c7-2adb-6760dae1a04c">
+      <Execution id="11b46001-04e8-4df3-93ba-bbd023900e0d" />
+      <TestMethod codeBase="C:/Users/Daiz/Desktop/Projects/Database/DaizBase/SimphonyTest/bin/Debug/SimphonyTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimphonyTest.SimphonyTest, SimphonyTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SaveMasterList" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c3916199-205e-20c7-2adb-6760dae1a04c" executionId="11b46001-04e8-4df3-93ba-bbd023900e0d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="11b46001-04e8-4df3-93ba-bbd023900e0d" testId="c3916199-205e-20c7-2adb-6760dae1a04c" testName="SaveMasterList" computerName="DAIZ-PC" duration="00:00:25.8730000" startTime="2011-10-15T22:23:06.9921000-04:00" endTime="2011-10-15T22:23:32.8651000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11b46001-04e8-4df3-93ba-bbd023900e0d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

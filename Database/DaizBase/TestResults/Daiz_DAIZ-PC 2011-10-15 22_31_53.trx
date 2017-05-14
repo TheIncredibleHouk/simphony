@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cdb9ce88-8a48-4595-9f5a-4e42f6051d14" name="Daiz@DAIZ-PC 2011-10-15 22:31:53" runUser="Daiz-PC\Daiz" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="6d1ec75a-477d-46b2-8a47-3eb61e1c9c28">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Daiz_DAIZ-PC 2011-10-15 22_31_53">
+      <DeploymentItem filename="C:\Users\Daiz\Desktop\Projects\Database\SimPhony\bin\Debug\SimPhony.dll" />
+      <DeploymentItem filename="C:\Users\Daiz\Desktop\Projects\Database\DaizBase\bin\Debug\DaizBase.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-10-15T22:31:53.1051000-04:00" queuing="2011-10-15T22:31:54.6471000-04:00" start="2011-10-15T22:31:54.8651000-04:00" finish="2011-10-15T22:32:31.2861000-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SaveMasterList" storage="c:\users\daiz\desktop\projects\database\daizbase\simphonytest\bin\debug\simphonytest.dll" id="c3916199-205e-20c7-2adb-6760dae1a04c">
+      <Execution id="b8002c6f-39f6-4746-b175-458d1d6ac4bf" />
+      <TestMethod codeBase="C:/Users/Daiz/Desktop/Projects/Database/DaizBase/SimphonyTest/bin/Debug/SimphonyTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimphonyTest.SimphonyTest, SimphonyTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SaveMasterList" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c3916199-205e-20c7-2adb-6760dae1a04c" executionId="b8002c6f-39f6-4746-b175-458d1d6ac4bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b8002c6f-39f6-4746-b175-458d1d6ac4bf" testId="c3916199-205e-20c7-2adb-6760dae1a04c" testName="SaveMasterList" computerName="DAIZ-PC" duration="00:00:33.8227726" startTime="2011-10-15T22:31:55.0021000-04:00" endTime="2011-10-15T22:32:29.4971000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8002c6f-39f6-4746-b175-458d1d6ac4bf">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SimphonyTest.SimphonyTest.SaveMasterList threw exception: 
+System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.</Message>
+          <StackTrace>    at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DaizBase.DbManager._GetCommand(String sql) in C:\Users\Daiz\Desktop\Projects\Database\DaizBase\DbManager.cs:line 20
+   at DaizBase.DbManager.Insert(String sql) in C:\Users\Daiz\Desktop\Projects\Database\DaizBase\DbManager.cs:line 26
+   at DaizBase.DbObject.Save() in C:\Users\Daiz\Desktop\Projects\Database\DaizBase\DbObject.cs:line 132
+   at SimphonyTest.SimphonyTest.SaveMasterList() in C:\Users\Daiz\Desktop\Projects\Database\DaizBase\SimphonyTest\Simphony.cs:line 65
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

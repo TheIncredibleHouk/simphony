@@ -1,0 +1,5 @@
+C:\Projects\SSNFramework2\SSN.DotNet\SSN.DotNetExtensions\bin\Debug\SSN.DotNet.dll
+C:\Projects\SSNFramework2\SSN.DotNet\SSN.DotNetExtensions\bin\Debug\SSN.DotNet.pdb
+C:\Projects\SSNFramework2\SSN.DotNet\SSN.DotNetExtensions\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\SSNFramework2\SSN.DotNet\SSN.DotNetExtensions\obj\Debug\SSN.DotNet.dll
+C:\Projects\SSNFramework2\SSN.DotNet\SSN.DotNetExtensions\obj\Debug\SSN.DotNet.pdb

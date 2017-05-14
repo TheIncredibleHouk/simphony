@@ -1,0 +1,466 @@
+﻿000A 00 PUT YOUR FAITH IN ME
+000B 00 BRILLIANT 2U
+000D 00 BRILLIANT 2U (Orchestra-Groove)
+000E 00 MAKE IT BETTER
+0019 00 AM-3P
+001A 00 TRIP MACHINE
+001B 00 PARANOiA
+001C 00 SP-TRIP MACHINE(JUNGLE MIX)
+001D 00 PARANOiA MAX(DIRTY MIX)
+002A 00 PARANOiA KCET(clean mix)
+002B 00 TRIP MACHINE(luv mix)
+002C 00 LOVE THIS FEELIN'
+002D 00 think ya better D
+002E -2 KEEP ON MOVIN'
+003A 00 e-motion
+004B 00 LUV TO ME (disco mix)
+007C 00 AFRONOVA
+007F 00 DEAD END
+0080 00 La Senorita
+0081 00 Silent Hill
+0082 00 PARANOiA Rebirth
+0083 00 LUV TO ME (AMD MIX)
+0085 00 GRADIUSIC CYBER (AMD G5 MIX)
+0089 00 AFTER THE GAME OF LOVE
+008A 00 CUTIE CHASER
+008B 00 DROP THE BOMB
+008C -2 La Senorita Virtual
+008D -2 AM-3P(303 BASSMIX)
+009A 00 DROP OUT
+009B 00 CAN'T STOP FALLIN' IN LOVE
+009C 00 WILD RUSH
+009E 00 SUPER STAR
+009F 00 HYSTERIA
+00A0 00 PARANOIA EVOLUTION
+00B6 00 BABY BABY GIMME YOUR LOVE
+00B7 00 TRIP MACHINE CLIMAX
+00B8 00 BURNIN' THE FLOOR
+00B9 -2 HIGHER
+00BA 00 ORION.78
+00BB -2 B4U
+00BC 00 LOVE AGAIN TONIGHT
+00BE 00 MY SUMMER LOVE
+00C3 00 LEADING CYBER
+00C4 -2 .59
+00C5 00 Holic
+00C6 00 era(nostalmix)
+00C9 00 Don't Stop!
+00D3 00 Groove
+00D4 00 MIDNITE BLAZE
+00D5 00 ORION.78 civilization mix
+00D6 00 Share My Love
+00DD 00 CELEBRATE NITE
+00DE 00 SEXY PLANET
+00E9 00 Healing Vision
+00EA 00 STILL IN MY HEART
+00EB 00 ECSTASY
+00EC 00 ABSOLUTE
+00ED 00 BROKEN MY HEART
+00EE 00 DXY!
+00FC 00 Remember You
+0101 00 Abyss
+0102 00 SANA MOLLETE NE ENTE
+010B 00 AFRONOVA PRIMEVAL
+010D 00 INSERTiON
+010E 00 CAN'T STOP FALLIN' IN LOVE(SPEED MIX)
+0129 00 Let the beat hit em!(CLASSIC R&B STYLE)
+012A 00 GROOVE 2001
+012B 00 Healing Vision (Angelic Mix)
+0145 00 MAX 300
+014C 00 exotic ethnic
+014D 00 CANDY(star)
+014F -1 Kind Lady
+0156 00 D2R
+0157 00 DESTINY
+015A 00 Sweet Sweet Love Magic
+0162 00 Secret Rendez-vous
+0164 00 rain of sorrow
+0165 00 MAXX UNLIMITED
+0166 00 DIVE TO THE NIGHT
+0167 00 TSUGARU
+0168 00 BREAK DOWN !
+0169 00 BURNING HEAT!(3 Option Mix)
+016C 00 i feel...
+016D 00 CANDY(heart)
+0173 00 KAKUMEI
+0174 00 AFRONOVA (from Nonstop Megamix)
+0175 00 AM-3P (AM EAST mix)
+0176 00 BRILLIANT 2U (K.O.G G3 MIX)
+0177 00 B4U (B4 ZA BEAT MIX)
+0178 00 DROP OUT (from Nonstop Megamix)
+0179 00 DYNAMITE RAVE (B4 ZA BEAT MIX)
+017A 00 HYSTERIA 2001
+017C 00 SEXY PLANET (from Nonstop Megamix)
+017D 00 SUPER STAR (from Nonstop Megamix)
+017E 00 STILL IN MY HEART (MOMO MIX)
+017F 00 WILD RUSH (from Nonstop Megamix)
+0180 00 BURNIN' THE FLOOR (BLUE FIRE mix)
+0181 00 TSUGARU (APPLE MIX)
+0182 00 ECSTASY (midnight blue mix)
+0183 00 Silent Hill (3rd christmas mix)
+0184 00 CELEBRATE NITE (EURO TRANCE STYLE)
+0185 00 HIGHER (next morning mix)
+0186 00 MY SUMMER LOVE (TOMMY'S SMILE MIX)
+0197 00 MEMORIES
+0198 00 CRASH!
+019B 00 VANITY ANGEL
+019E 00 Jam & Marmalade
+019F -1 LOGICAL DASH
+01A4 00 THE SHINING POLARIS
+01A5 -1 DROP THE BOMB(System S.F. Mix)
+01AC 00 CUTIE CHASER(Morning Mix)
+01AD 00 LOVE LOVE SHINE
+01AE 00 PARANOiA survivor
+01B4 00 KISS KISS KISS
+01B5 00 LOVE LOVE SUGAR
+01B6 00 L'amour et la liberte'(DDR Ver.)
+01B7 00 I'm gonna get you!
+01B8 00 Destiny lovers
+01B9 00 The Least 100sec
+01BA 00 Gamelan de Couple
+01BB 00 JANE JANA
+01BC 00 MOBO MOGA
+01BD 00 BE LOVIN
+01BE 00 Miracle Moon(L.E.D.LIGHT STYLE MIX)
+01BF 00 GRADUATION
+01C0 00 V(for EXTREME)
+01C1 00 A
+01C4 00 Colors(for EXTREME)
+01C5 00 STAY(Organic house Version)
+01C6 00 KISS ME ALL NIGHT LONG
+01C8 00 Frozen Ray(for EXTREME)
+01CB 00 DAIKENKAI
+01CD 00 HOLD ON ME
+01CE 00 JET WORLD
+01CF 00 Happy Wedding
+01D0 00 PARANOiA survivor MAX
+01D1 00 bag
+01D2 00 The legend of MAX
+01D3 00 Blue Impulse(for EXTREME)
+01D5 00 sync(EXTREME version)
+01D6 00 stoic(EXTREME version)
+01D7 00 321 STARS
+01D8 00 1998
+01D9 00 TwinBee -Generation X-
+01DA 00 xenon
+01DB 00 SAKURA
+01DC 00 Pink Rose
+01DD 00 Heaven is a '57 metallic gray(gimmix)
+01DE 00 HYPER EUROBEAT
+01DF 00 LA BAMBA (Extreme)
+01E0 00 Dance Dance Revolution
+01E1 00 TRIP MACHINE survivor
+01E2 00 air
+01E4 00 TEARS
+01E6 00 Across the nightmare
+6000 -3 Funk Boogie
+6001 -2 Try 2 Luv. U
+6005 -6 Forever Sunshine
+6006 -2 Saturday Night Love
+6007 -1 Bad Routine
+6008 00 Keep On Liftin'
+600A -3 Tomorrow Perfume
+7012 00 MAXIMIZER
+7013 -2 I Need You
+701C -1 A Stupid Barber
+701D 00 Scorching Moon
+702D -3 un deux trois
+8000 00 Can Be Real
+8006 -3 PARANOiA -Respect-
+8010 00 Freedom
+8011 00 STARS☆☆☆(2nd NAOKI's style)
+810A 01 GORGEOUS 2012
+810E -2 KEEP ON MOVIN'(DMX Mix)
+8114 00 Mind Parasite
+8117 01 PUT YOUR FAITH IN ME(SATURDAY NIGHT MIX)
+8118 -1 Quickening
+8380 00 Polovtsian Dances And Chorus
+8381 00 LOVE IS ORANGE
+8382 00 Make A Difference
+8383 -1 MARIA(I believe...)
+8384 00 TOMORROW
+8385 00 SEDUCTION
+8386 -1 INSIDE YOUR HEART
+8388 00 PASSION OF LOVE
+8389 -2 You gotta move it (feat. Julie Ruggard)
+840E -2 Midnight Special
+8410 -2 Monkey Punk
+8413 -3 Baile Le Samba
+841A -6 MAX 300 (Super-Max-Me Mix)
+8420 00 Knock Out Regrets
+842A -2 DoLL
+842B -1 iFUTURELIST
+9000 00 AA
+9001 -1 RED ZONE
+9002 00 HAPPY ANGEL
+9003 00 Xepher
+9005 00 Dragon Blade
+9006 00 CURUS
+9007 -1 Mugen no Hikari
+9008 00 NIJIIRO
+9009 00 Gekkou chou
+900A 00 konoko no nanatsu no oiwaini
+900B 00 MOON
+900C 00 No.13
+900D 00 DanDanDo
+900E 00 KAGEROW
+900F 00 Chikara
+9010 00 Under the Sky
+9012 00 rainbow rainbow
+9013 00 Brazilian Anthem
+9014 00 CENTAUR
+9015 00 TIERRA BUENA
+9016 00 Ska Ska No.3
+9017 00 Tino's White Horse
+9018 00 murmur twins
+9019 00 Fly away
+901A 00 INNOCENCE OF SILENCE
+901B 00 My Only Shining Star
+901C 00 Flow
+901D 00 rainbow flyer
+901F 00 Star Gate Heaven
+9028 00 La Bamba(SuperNOVA)
+902A 00 Fascination MAXX
+9033 00 Drivin'
+9034 00 Quick Master
+9035 00 CAN'T STOP FALLIN' IN LOVE (super euro version)
+9036 00 DYNAMITE RAVE (super euro version)
+9038 00 SEDUCTION (Vocal Remix)
+903D 00 CHAOS
+9040 00 La Bamba(DDR SuperNOVA)
+9041 00 I'll Make Love To You
+9043 00 TRUE LOVE
+9046 00 Healing-D-Vision
+9047 00 Hana Ranman -Flowers-
+9048 00 Flow -True Style-
+9049 00 Fascination (eternal love mix)
+9100 00 Fly away -mix del matador-
+9101 00 SOUL CRASH
+9102 00 Star Gate Heaven (FUTURE LOVE Mix)
+9103 00 MOONSTER
+9104 00 Flow (Jammin' Ragga Mix)
+9105 00 Feelings Won't Fade (Extended Trance Mix)
+9106 00 Silver Platform -I wanna get your heart-
+9107 00 Trim
+9143 00 Electrified
+9144 00 Music In The Rhythm
+9145 00 Malacca
+9146 00 Raspberry Heart (English version) 
+9147 00 Bloody Tears (IIDX EDITION)
+9152 00 ANGELUS
+9156 00 dazzle
+9157 00 Freeway Shuffle
+916C 00 will
+9175 00 Beautiful Inside (Cube::Hard Mix)
+9178 00 SUPER SAMURAI
+9181 00 Lesson by DJ
+9183 00 NGO
+9186 00 FIRE
+9187 00 Unreal
+9188 00 STARS★★★(Re-tuned by HΛL)-DDR EDITION-;
+9190 00 CaptivAte~CHIKAI~
+9191 00 Venus
+9192 00 Blind Justice ~Torn souls, Hurt Faiths~
+9193 00 A thing called LOVE
+9195 00 Ubertreffen
+9196 00 Arrabbiata
+9198 00 Until Forever
+9199 00 TRIP MACHINE PhoeniX
+919A 00 Vem brincar
+919B 00 EternuS
+919C 00 dream of love
+919D 00 volcano
+919E 00 Every Day, Every Night (NM STYLE)
+919F 00 Pluto
+91A0 00 SUNRISE (JASON NEVINS REMIX)
+91A1 00 PARANOiA -HADES-
+91A2 00 switch
+91A3 00 stealth
+91A7 00 Trust -DanceDanceRevolution mix-
+91A8 00 Pluto Relinquish
+91A9 00 L'amour et la liberte'(Darwin & DJ Silver remix)
+91AA 00 Votum stellarum -forest #25 DDR RMX-
+91AB 00 JUPITER The Bringer of Jollity
+91AD 00 Uranus
+91AE 00 MARS WAR 3
+91AF 00 Why not
+91B0 00 Shades of Grey
+91B1 00 GIRIGILI Burning 24H!
+91B2 00 Poseidon
+91B3 00 BRILLIANT 2U ("STREAM" Special)
+91B4 00 AM-3P ("CHAOS" Special)
+91B5 00 D2R ("FREEZE" Special)
+91B6 00 DYNAMITE RAVE ("AIR" Special)
+91B7 00 B4U ("VOLTAGE" Special)
+91B8 00 DEAD END ("GROOVE RADAR" Special)
+91BA 00 SUNKiSS DROP
+91BB 00 Saturn
+91BC 00 True Love (Clubstar`s True Club Mix)
+91BD 00 Pluto The First
+91C1 00 puzzle
+91C3 00 TimeHollow
+91C4 00 SAGA
+91C6 00 On The Break
+91C7 00 Feel
+91C8 00 Ghetto Blasta Deluxe
+91C9 00 Make Me Cry
+91CA 00 Tracers (4Beat Remix)
+91CB 00 Waiting 4 u
+91CC 00 Dream Machine
+91EA 00 Flight of the Phoenix
+91EB 00 Ticket To Bombay
+91EC 00 Taj He Spitz
+91ED 00 SABER WING
+91EE 00 LOVING YOU (Epidemik remix)
+91EF 00 INTO YOUR HEART (Ruffage remix)
+91F1 00 REACH THE SKY (Orbit1 remix)
+91F6 00 Here We Go
+91F8 00 Lift You Up
+91F9 00 Flourish
+91FA 00 Take A Chance
+91FB 00 Boy (DJ Irene Rockstar Mix)
+91FC 00 Put 'Em Up
+921A 00 Always on My Mind
+921B 00 Here It Goes Again
+921C 00 Happy
+921D 00 U Can't Touch This
+921E 00 Playa (Original Mix)
+921F 00 Dance Celebration
+9220 00 Slip Out
+9221 00 Horatio
+9225 00 Big Girls Don't Cry
+9226 00 Party Lights
+9227 00 Taj He Spitz (Tommie Sunshine's Brooklyn Fire Re-Touch)
+9228 00 SABER WING (AKIRA ISHIHARA Headshot mix)
+9229 00 Slip Out (bounce in beat mix)
+922A 00 Dance Celebration (System 7 Remix)
+9235 00 Butterfly (2008 X-edit)
+9236 00 BOYS (2008 X-edit)
+9237 00 30 Lives (Up-Up-Down-Dance Mix)
+9238 00 Till the lonely's gone
+923A 00 Lesson2 by DJ
+923B 00 KYOKA-SUIGETSU-ROW (DDR EDITION)
+923D 00 We've Got To Make It Tonight
+923E 00 Synthesized
+923F 00 DUB-I-DUB (2008 X-edit)
+9240 00 GET UP'N MOVE (2008 X-edit)
+9241 00 HERO (2008 X-edit)
+9242 00 Reach Up
+9243 00 We Come Alive
+9244 00 Inspiration
+9245 00 on the bounce
+9246 00 Trigger
+9247 00 Dance Floor
+9256 00 Rin to Shite Saku Hana no Gotoku
+925A 00 ZERO
+9260 00 resonance
+926C 00 Blue Rain
+926D 00 Chance and Dice
+926E 00 Koko Soko
+926F 00 PARANOiA (X-Special)
+9270 00 TRIP MACHINE (X-Special)
+9271 00 PARANOiA MAX(DIRTY MIX)(X-Special)
+9272 00 SP-TRIP MACHINE(JUNGLE MIX)(X-Special)
+9273 00 PARANOiA Rebirth(X-Special)
+9274 00 AFRONOVA(X-Special)
+9275 00 PARANOIA EVOLUTION(X-Special)
+9276 00 TRIP MACHINE CLIMAX(X-Special)
+9277 00 PARANOiA ETERNAL(X-Special)
+9278 00 Healing Vision(X-Special)
+9279 00 CANDY(X-Special)
+927A 00 MAX 300(X-Special)
+927B 00 MAXX UNLIMITED(X-Special)
+927C 00 kakumei(X-Special)
+927D 00 The legend of MAX(X-Special)
+927E 00 Dance Dance Revolution(X-Special)
+927F 00 PARANOiA MAX(DIRTY MIX)in roulette(X-Special)
+9280 -1 A Geisha's Dream
+9281 00 Trickster
+9282 00 SEKAI HA ODORU
+9283 00 Suki Melo
+9284 00 Tabibito
+9285 00 PARANOiA MAX(DIRTY MIX)(SMM-Special)
+9286 00 SP-TRIP MACHINE(JUNGLE MIX)(SMM-Special)
+9287 00 in love wit you
+9288 00 real-high-SPEED
+9289 00 PORIRIZUMU
+9290 00 roppongi EVOLVED ver.A
+9326 00 IF YOU WERE HERE
+9325 00 IF YOU WERE HERE (LED-G STYLE REMIX)
+9324 00 someday ...
+9323 00 shining
+9322 00 DROP
+9321 00 roppongi EVOLVED ver.D
+9320 -1 Decade
+931F -1 Pierce The Sky
+931E 00 Sakura Sunrise
+931D 00 Poseidon (kors k mix)
+931C 00 New Decade
+931B 00 Sky Is The Limit
+9316 00 WH1TE RO5E
+9315 00 KISS KISS KISS MIX Akiba Koubou
+9314 01 All My Love
+9313 00 Anti-Matter
+9312 00 CG Project
+9310 00 She is my wife
+930F -1 Yellow CANDY
+930E 00 VANESSA
+930D 00 Second Heaven
+930C 00 The transcendental world of prime-ZETA ~
+930B 00 Dark
+930A 01 Dazzlin' Darlin
+9309 00 Dazzlin' Darlin - mix-Autumn Leaf Workshop
+9308 -1 smooooch
+9307 01 FIRE FIRE
+9306 00 GOLD RUSH
+92F7 00 Crazy Control
+92F2 00 La receta
+92EF 00 La libertad
+92ED 00 You are a Star
+92E2 00 Gotta Dance
+92DF 00 THIS NIGHT
+92DB 00 A Brighter Day
+92D5 00 KIMONO PRINCESS
+92D0 00 Heatstroke
+92C5 00 Bonafied Lovin'
+92C4 00 Love Again
+92C3 00 Shine
+92B7 00 Feel Good Inc.
+92AE 00 DAFT PUNK IS PLAYING AT MY HOUSE
+92AD 00 ICE ICE BABY
+92AA 00 What Will Come of Me
+92A9 00 Sacred Oath
+92A3 -1 Freeze
+9291 00 roppongi EVOLVED ver.B
+9292 00 roppongi EVOLVED ver.C
+929C 00 Taking It To The Sky
+9327 00 more more more
+9328 00 only my railgun
+9329 00 EZ DO DANCE
+932A 00 Be Your Wings
+932B 00 Super Driver
+932C 00 TENSHI
+932D 00 Hide-away
+932E 01 CAPTAIN JACK (GRANDALE REMIX)
+932F 00 SUPER EUROBEAT <GOLD MIX>
+9330 00 ETERNITY
+9331 00 Everytime We Touch
+9332 00 DAM DARIRAM
+9333 00 Time After Time
+9334 00 Valkyrie dimension
+9335 00 Shiny World
+9336 00 BALLAD THE FEATHERS
+9337 00 going up
+9338 00 Leaving ...
+9339 00 MAX LOVE
+933A 00 Melody Life
+933B 00 888
+933C 00 aftershock!!
+933D 00 deltaMAX
+933E 00 dirty digital
+933F 00 Dummy
+9340 00 sakura storm
+9341 00 Your Angel
+9342 00 oarfish
+9375 00 I'm so Happy
+9376 00 Theory of Eternity

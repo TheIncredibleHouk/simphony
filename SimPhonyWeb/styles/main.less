@@ -1,0 +1,293 @@
+﻿// variables
+@borderBar: 1px solid #618FAF;
+@highlightField: mix(#618FAF, #FFFFFF, 10%);
+@coloredText: #618FAF;
+@highlightText: red;
+@selectedText: #3293f3;
+
+// tags
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a
+{
+	color: @coloredText;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: @highlightText;
+}
+
+h1
+{
+	font-size: 14pt;
+	border-bottom: @borderBar;
+	padding-left: 8px;
+}
+
+body
+{
+	margin: 0px;
+	min-width: 900px;
+}
+p
+{
+	text-indent: 16px;
+}
+
+input[type=text], input[type=password]
+{
+	border: @borderBar;
+}
+
+textarea, select
+{
+	border: @borderBar;
+}
+
+body
+{
+	margin: 0xp;
+	background-image: url(/images/bg.png);
+}
+
+img
+{
+	border: 0px;
+	vertical-align: middle;
+}
+
+// mixins
+.simple-gradient(@startColor, @endColor){
+	background:formatString("-moz-linear-gradient(top, {0} 0%, {1} 100%)", @startColor, @endColor);
+	background:formatString("-webkit-gradient(linear, left top, left bottom, color-stop(0%,{0}), color-stop(100%,{1}))", @startColor, @endColor);
+	background:formatString("-webkit-linear-gradient(top, {0} 0%,{1} 100%)", @startColor, @endColor);
+	background:formatString("-o-linear-gradient(top, {0} 0%,{1} 100%)", @startColor, @endColor);
+	filter:formatString("progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr={0},endColorstr={1})", @startColor, @endColor);
+	background:formatString("-ms-linear-gradient(top, {0} 0%,{1} 100%)", @startColor, @endColor);
+	background:formatString("linear-gradient(top, {0} 0%,{1} 100%)", @startColor, @endColor);
+}
+
+.border-radius(@border)
+{
+    border-radius: @border;
+	-webkit-border-radius: @border;
+	-moz-border-radius: @border;
+}
+// classes
+.topbar
+{
+	padding-left: 24px;
+}
+
+.group
+{
+    .border-radius(5px);
+	border: 1px solid mix(#00638A, #ffffff, 50);
+	background-color: #00638A;
+	padding: 2px;
+	margin: 4px;
+
+	h1
+	{
+	    margin: 0px;
+		color: #ffffff;
+		font-size: 12pt;
+		border: none;
+	} 
+
+	.innercontent
+	{
+	    border: 1px solid gray;
+		.border-radius(5px);
+		background-color: #ffffff;
+		padding: 2px;
+		color: #000000 !important;
+		font-weight: normal !important;
+
+		a
+		{
+			display: block;
+		}
+	}
+}
+
+#edit_list4
+{
+	td
+	{
+		font-weight: normal !important;
+		text-align: left;
+	}
+}
+
+.form 
+{
+	border-spacing: 0px;
+	border-collapse: separate;
+	td {
+		padding: 4px;
+		vertical-align: top;
+	}
+
+	td:first-child
+	{
+		font-weight: bold;
+		text-align: right;
+	}
+}
+
+.formh
+{
+	background-color: @highlightField;
+}
+
+.formfooter td
+{
+	border-top: @borderBar;
+}
+
+.ajaxload
+{
+	visibility: hidden;
+	vertical-align: bottom;
+}
+
+.ok
+{
+	color: green;
+}
+
+.validator, .error
+{
+	background-color: yellow;
+	border: 1px solid red;
+	color: red;
+}
+
+.gridview
+{
+	border: @borderBar;
+	font-size: 10pt;
+
+	th
+	{
+		cursor: pointer;
+        .simple-gradient(#ffffff, #d0d0d0);
+        outline: 1px solid darkgray;
+        padding: 2px;
+		span
+		{
+			font-size: 8pt;
+			padding-top: 2px;
+		}
+
+        &:hover
+        {
+             .simple-gradient(#ffffff, #e8e8e8);
+        }
+        
+        &.sorted
+        {
+            .simple-gradient(#d0d0d0, #ffffff);
+            &:hover
+            {
+                 .simple-gradient(#e8e8e8, #ffffff);
+            }
+        }
+	}
+
+	td
+	{
+		border-bottom: 1px solid @highlightField;
+	}
+
+	.selected
+	{
+		background-color: #3399ff;
+		color: #ffffff;
+	}
+
+	tr
+	{
+		cursor: pointer;
+	}
+}
+
+//specific classes
+.topedits
+{
+	a
+	{
+		font-size: 10pt;
+		div
+		{
+			text-align: right;
+			color: #000000;
+		}
+
+		border-top: 1px solid gray;
+
+		&:hover
+		{
+			background-color: @highlightField;
+		}
+	}
+
+	a:first-child
+	{
+		border-top: 0px;
+	}
+}
+
+.maincontent
+{
+	
+}
+
+.status
+{
+	.border-radius(5px);
+	border: 1px solid gray;
+	padding: 2px;
+	width: 200px;
+	background-color: #000000;
+	display: inline-block;
+	height: 16px;
+}
+
+.value
+{
+	background-color: green;
+	height: 100%;
+}
+
+.scrollbar
+{
+    .decrease.thumb { background-image: url('/images/backgrounds/scrollbar/decrease.png'); }
+    .decrease.thumb:hover { background-image: url('/images/backgrounds/scrollbar/decrease2.png'); }
+    .increase.thumb { background-image: url('/images/backgrounds/scrollbar/increase.png'); }
+    .increase.thumb:hover { background-image: url('/images/backgrounds/scrollbar/increase2.png'); }             
+    .track.thumb { border: 1px solid #9a9a9a; background-image: url('/images/backgrounds/scrollbar/track.png'); border-radius: 1px 1px 1px 1px; -webkit-border-radius: 1px 1px 1px 1px; -moz-border-radius: 1px 1px 1px 1px; }
+    .track.thumb:hover { background-image: url('/images/backgrounds/scrollbar/track2.png'); }
+}
+
+
+#edit_list
+{
+	#edit_list3
+	{
+		white-space: nowrap;
+		height: 200px;
+		overflow: auto;
+	}
+	position: fixed;
+	top: 0px;
+	right: 0px;
+}
